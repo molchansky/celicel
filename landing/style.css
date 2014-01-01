@@ -1,0 +1,216 @@
+/* BODY */
+
+@font-face{
+	font-family: 'Open Sans', sans-serif;
+
+}
+
+body{
+	/* background: #000 url("img/bg_img.jpg") no-repeat scroll;
+	*/
+	
+.back{
+	margin-top: 0;	
+}
+
+}
+.wrapper{
+	min-width: 650px;
+	height: 60px;
+	margin: 0 30% 0 6.5%;
+	margin-top: 7px;
+}
+
+.logo{
+	width: 65px;
+	height: 65px;
+	background-image: url(img/logo.jpg);
+	
+}
+
+.header{
+	margin: -55px;
+	text-align: center;
+	font-size: 16px;
+	font-family: 'Open Sans', sans-serif;
+	font-weight: lighter;
+	color: white;
+
+
+}
+
+
+/* CAROUSEL */
+#myCarousel{
+	max-width: 800px;
+	min-width: 20px;
+	min-height: 300px;
+	margin: 100px 400px 0 80px;
+}
+
+.slide{
+	/*min-width: 20px;
+	height: 350px; */
+	background-color: #000;
+	opacity: ;
+	/* overflow: hidden;
+	/* -webkit-filter: blur(5px);
+	/* padding-top: 45px;
+	 box-sizing: border-box;*/
+	}
+
+
+.one, .two, .third, .fourth{
+height: 256px;
+	}
+
+
+
+#slide{
+	color: white;
+	font-size: 24px;
+	/*height: 30px;
+	width: 700px; */
+}
+
+.important{
+	margin-top: 45px;
+	min-width: 480px;
+	text-align: center;
+
+}
+
+.main{ /* Сделать плавающей !!! */
+	margin: 50px 50px 40px 50px; 
+	min-width: 200px;
+	text-align: center;
+	line-height: 2;
+	font-size: 16px;
+	font-weight: lighter;
+}
+
+.more{
+	margin: 0px 50px 10px 350px;
+	background-color: #888;
+	color: #fff;
+	font-size: 16px;
+	padding: 10px 10px 10px 10px;
+	border-radius: 2px;
+}
+
+.more:hover{
+	background-color: #ff9900;
+	color: #fff;
+	text-decoration: none;
+}
+
+.carousel-inner{
+
+}
+
+/*===========================================
+AUTORIZE
+=============================================*/
+
+.login{
+	display: inline-block;
+	position: absolute;right: 0;top:0;bottom:0;
+	width: 310;
+	height: auto;
+	background-color: #e9eaed;
+}
+
+.auto{
+	text-align: center;
+	color: #696969;
+	font-size: 20px;
+	font-family: 'Open Sans', sans-serif;
+	margin-top: 30px;
+	font-weight: 400;
+}
+
+.signvk{
+	height: 50px;
+	width: 290px;
+	background-color: #355682;
+	border-style: none;
+	border-radius: 2px;
+	margin-left: 10px;
+	color: white;
+	font-weight: 400;
+	margin-top: 30px;
+	/*background-image: url(img/vk.png);
+	background-repeat: norepeat;
+  	15px;
+  	25px;	*/
+}
+
+.or{
+	text-align: center;
+	color: #696969;
+	font-size: 16px;
+	font-family: 'Open Sans', sans-serif;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	font-weight: lighter;	
+}
+
+#input, #input2{
+	width: 290px;
+	height: 50px;
+	margin-left: 10px;
+	margin-right: 10px;
+	border-right: 2px;
+	border-style: none;
+}???
+
+.placeholder{???}
+
+.signup{
+	height: 50px;
+	width: 290px;
+	background-color: #ff9900;
+	border-style: none;
+	border-radius: 2px;
+	margin-left: 10px;
+	color: white;
+	
+}
+
+.hide{
+	display: none;
+}
+
+/* Подвал */
+
+.year{
+	display: inline-block;
+	color: #8e8e8f;
+}
+
+.copyright{
+	margin-left: 10px;
+	margin-top: 40px;
+	position: fixed; 
+    bottom: 0; 
+    width: 100%;
+    font-size: 12px;
+    margin-left: 15px;
+}
+
+.footerlink{
+	color: #8e8e8f;
+	margin-left: 10px;
+	font-style: normal;	
+
+}
+
+.footerlink:hover{
+	color: #ff9900;
+}
+
+.art{
+	width: 400px;
+	height: 200px;
+	border: 2px solid #000;
+}
