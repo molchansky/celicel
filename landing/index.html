@@ -32,7 +32,7 @@
 <body>
 
 <!-- Background slider -->
-<div id="myCarousel" class="back carousel slide" style="margin-top: 0px; position: absolute; z-index: -5;">
+<div id="myCarouselb" class="back carousel slide" style="margin-top: 0px; position: absolute; z-index: -5;">
   <!-- Carousel items -->
   <div class="carousel-inner" style="width: 1200; margin-left: -120px; margin-top: -12px;">
     <div class="active item">
@@ -75,7 +75,7 @@
         <span id="slide">
     			<p class="important">Узнать советы друзей по реализации своих целей</p id="heading">
     			<p class="main">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Neque, quia, cum consectetur tempora fuga rerum eveniet consequatur eius vel odit. Quia, non blanditiis veritatis et expedita adipisci amet alias consequatur!</p>
-          <a href="" class="more">Подробнее</a>
+         <!-- <a href="" class="more">Подробнее</a> -->
     		</span> 
           
     	</div>
@@ -85,7 +85,7 @@
         <span id="slide">
           <p class="important">Узнать советы друзей по реализации своих целей</p id="heading">
           <p class="main">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Neque, quia, cum consectetur tempora fuga rerum eveniet consequatur eius vel odit. Quia, non blanditiis veritatis et expedita adipisci amet alias consequatur!</p>
-          <a href="" class="more">Подробнее</a>
+          <!-- <a href="" class="more">Подробнее</a> -->
         </span> 
       </div>
     </div>
@@ -94,7 +94,7 @@
      <span id="slide">
           <p class="important">Узнать советы друзей по реализации своих целей</p id="heading">
           <p class="main">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Neque, quia, cum consectetur tempora fuga rerum eveniet consequatur eius vel odit. Quia, non blanditiis veritatis et expedita adipisci amet alias consequatur!</p>
-          <a href="" class="more">Подробнее</a>
+          <!-- <a href="" class="more">Подробнее</a> -->
         </span> 
     </div>
     </div>
@@ -103,7 +103,7 @@
      <span id="slide">
           <p class="important">Узнать советы друзей по реализации своих целей</p id="heading">
           <p class="main">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Neque, quia, cum consectetur tempora fuga rerum eveniet consequatur eius vel odit. Quia, non blanditiis veritatis et expedita adipisci amet alias consequatur!</p>
-          <a href="" class="more">Подробнее</a>
+         <!-- <a href="" class="more">Подробнее</a> -->
         </span> 
     </div>
     </div>
@@ -113,21 +113,27 @@
   <a class="carousel-control right" href="#myCarousel" data-slide="next">&rsaquo;</a>
 </div>
 
-
+<!-- Registration -->
 <div class="login"> 
   <div class="artificial">
-  <p class="auto" >Авторизация</p>
+  <p class="auto" >Регистрация</p>
   <button class="signvk">
     <img style="width: 25px;height: 15px;display: inline-block;margin-left: -25px;" src="img/vk.png" alt="">
     <label style="display: inline-block;margin-left: 30px;" for="signvk">ВОЙТИ ЧЕРЕЗ ВКОНТАКТЕ</label>
   </button>
   <p class="or">или</p>
-  <input type="text" placeholder="Логин" id="input">
-  <input type="text" placeholder="Пароль" id="input2">
-  <input type="text" placeholder="Подтвердите пароль"  id="input" class="hidden">  
-  <button class="signup">
-    <label for="signup">войти</label>
-  </button>
+  <form action="">
+    <input type="text" placeholder="E-mail" id="input">
+    <input type="password" placeholder="Пароль" id="input2">
+    <input type="password" placeholder="Подтвердите пароль"  id="input" class="hidden">  
+    <p class="check">
+      <input type="checkbox" >
+      <label style="display: inline;">Я принимаю условия <a href="">Пользовательского соглашения</a></label>
+    </p>
+    <button class="signup">
+      <label for="signup">Зарегистрироваться</label>
+    </button>
+  </form>
   <div class="copyright">
     <p class="year">© 2013 Celicel</p>
     <a class="footerlink" href="">О проекте</a>
@@ -142,6 +148,22 @@
 </body>
 
 <footer>
+
+  <div class="stat">
+    <p class="uplabel">зарегистрировано</p>
+    <p class="number">0,000001 млн</p>
+    <p class="downlabel">человек</p>
+  </div>
+  <div class="stat">
+    <p class="uplabel">зарегистрировано</p>
+    <p class="number">0,000001 млн</p>
+    <p class="downlabel">человек</p>
+  </div>
+  <div class="stat">
+    <p class="uplabel">зарегистрировано</p>
+    <p class="number">0,000001 млн</p>
+    <p class="downlabel">человек</p>
+  </div>
 
 </footer>
 </html>
